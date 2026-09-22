@@ -1,0 +1,23 @@
+project:
+  title: "Brett Longworth CV"
+  render:
+    - cv.qmd
+
+format:
+  typst:
+    papersize: us-letter
+    margin:
+      x: 1in
+      y: 0.75in
+    fontsize: 10pt
+    mainfont: "Helvetica"
+    toc: false
+    include-in-header: cv-style.typ
+
+bibliography: references.bib
+csl: apa.csl
+citeproc: true
+link-citations: false
+filters:
+  - path: filters/bold-own-name.lua
+    at: post-quarto
