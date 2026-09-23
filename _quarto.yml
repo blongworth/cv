@@ -2,6 +2,8 @@ project:
   title: "Brett Longworth CV"
   render:
     - cv.qmd
+  post-render:
+    - python3 scripts/bold_bib_names.py
 
 format:
   typst:
@@ -13,11 +15,9 @@ format:
     mainfont: "Helvetica"
     toc: false
     include-in-header: cv-style.typ
+    keep-typ: true
 
 bibliography: references.bib
 csl: apa.csl
 citeproc: true
 link-citations: false
-filters:
-  - path: filters/bold-own-name.lua
-    at: post-quarto

@@ -140,10 +140,18 @@ Peer-reviewed journal articles, managed in `references.bib` (kept up to date fro
 
 ## Published Abstracts and Professional Talks
 
-- Longworth BE, Burton JR, Pendleton SL, Moser SD, Roberts ML, Kurz MD. (2022). Radiocarbon measurement of CO2 from carbonate minerals using a hybrid gas ion source with an open split interface. Poster presented at AMS-16, Sydney, Australia (remote).
+- Pinson A, Nicholson DP, Ren AS, Todd RE, Takeshita Y, Subhas A, et al. (2026). Evaluating pH and rhodamine sensor data quality during an ocean alkalinity enhancement field trial. Presented at Ocean Sciences Meeting, Glasgow, Scotland (OT44A-1108).
+- Subhas A, Rheuban JE, Michel A, Lanagan T, McCorkle DC, et al. (2026). Preliminary results from LOC-02, a field trial studying the effectiveness and environmental impacts of ship-based ocean alkalinity enhancement using sodium hydroxide. Presented at Ocean Sciences Meeting, Glasgow, Scotland (CM51A-03).
+- Werb B, Longworth B, Traylor S, Takeshita Y, Nicholson DP, Todd RE, et al. (2026). Developing a framework for real-time data and communication to enhance situational awareness and decision-making in the LOC-NESS ocean alkalinity enhancement experiment. Presented at Ocean Sciences Meeting, Glasgow, Scotland (OT23A-03).
+- Traylor S, Takeshita Y, Werb B, Nicholson DP, Todd RE, Pinson A, et al. (2026). Autonomous assessment of CO2 uptake during an ocean alkalinity enhancement field trial. Presented at Ocean Sciences Meeting, Glasgow, Scotland (OT51A-06).
+- Devana M, Bachant M, Longworth B, Koeck S, Coogan J, Long MH. (2024). Enhancing marine carbon dioxide removal assessments with real-time long-term eddy covariance measurements of coastal biogeochemical fluxes. Presented at Ocean Sciences Meeting, New Orleans, LA (CM52A-08).
+- Long MH, Devana M, Bachant M, Koeck S, Longworth B, Chen S, et al. (2024). Eddy covariance at the seafloor: Technological advances for continuous benthic flux measurement. Presented at Ocean Sciences Meeting, New Orleans, LA (CB34B-1091).
+- Longworth BE, Burton JR, Pendleton SL, Moser SD, Roberts ML, Kurz MD. (2021). Radiocarbon measurement of CO2 from carbonate minerals using a hybrid gas ion source with an open split interface. Poster presented at AMS-15, Sydney, Australia (remote).
 - Longworth BE, Burton J, Hlavenka J, Roberts M. (2021). Progress with the NOSAMS Hybrid Gas Ion Source. Talk presented at SNEAP 2021, Woods Hole, MA.
+- Beaulieu S, Alexander H, Jamieson S, Longworth B, McLean C, et al. (2020). Building a data science curriculum and community for ocean scientists, engineers, and students using The Carpentries model. Presented at AGU Fall Meeting (virtual) (ED011-02).
 - Longworth BE, Gagnon A, Burton J, Gospodinova K, Hlavenka J, McNichol A, Roberts M. Development of a Hybrid Gas Ion Source and Gas Inlet Systems at NOSAMS. Poster presented at the 23rd Radiocarbon Conference, Trondheim, Norway.
 - Longworth BE, Roberts ML, von Reden KF, Jenkins WJ. Data acquisition and reduction at NOSAMS. Poster presented at AMS-14, Ottawa, Canada.
+- McNichol AP, Key RM, Elder KL, Longworth B, Burton JR, Gagnon AR. (2018). Decadal changes in the radiocarbon content of the Southern Ocean. Presented at Ocean Sciences Meeting, Portland, OR (PC34C-0651).
 - Longworth BE. (2016). NOSAMS Tandetron operations and developments. Presented at NAPB 2016, Woods Hole, MA.
 - Longworth BE. (2015). NOSAMS Tandetron operations and developments. Presented at NAPB 2015, Woods Hole, MA.
 - Longworth BE. (2015). The Many Sources of the NOSAMS Tandetron AMS System. Presented at SNEAP 2015, Albuquerque, NM.
