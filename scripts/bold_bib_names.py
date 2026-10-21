@@ -19,6 +19,7 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 TYP_PATH = REPO_ROOT / "cv.typ"
 PDF_PATH = REPO_ROOT / "cv.pdf"
+HTML_PATH = REPO_ROOT / "cv.html"
 
 # Matches "Longworth," followed by one or more ". "-style initials, e.g.
 # "Longworth, B. E." or "Longworth, B." -- stops before any trailing space
@@ -28,12 +29,37 @@ NAME_RE = re.compile(r"Longworth,(?: [A-Z]\.)+")
 # Bibliography entries are emitted as `#block[ ... ] <ref-KEY>`.
 ENTRY_RE = re.compile(r"(#block\[\n)(.*?)(\n\] <ref-[^>]+>)", re.S)
 
+# HTML entries are emitted as `<div id="ref-KEY" class="csl-entry" ...>...</div>`.
+HTML_ENTRY_RE = re.compile(r'(<div id="ref-[^"]+" class="csl-entry"[^>]*>)(.*?)(</div>)', re.S)
+
 
 def bold_names(entry_text: str) -> str:
     return NAME_RE.sub(lambda m: f"#strong[{m.group(0)}]", entry_text)
 
 
+def patch_html() -> None:
+    """Wrap the CV owner's name in <strong> within each HTML csl-entry."""
+    text = HTML_PATH.read_text(encoding="utf-8")
+    patched, n = HTML_ENTRY_RE.subn(
+        lambda m: m.group(1)
+        # Lookbehind skips names already bolded by a previous run (a stale
+        # cv.html survives e.g. `quarto render --to typst`).
+        + re.sub(
+            r"(?<!<strong>)" + NAME_RE.pattern,
+            lambda n: f"<strong>{n.group(0)}</strong>",
+            m.group(2),
+        )
+        + m.group(3),
+        text,
+    )
+    HTML_PATH.write_text(patched, encoding="utf-8")
+    print(f"bold_bib_names: patched {n} bibliography entries in cv.html")
+
+
 def main() -> None:
+    if HTML_PATH.exists():
+        patch_html()
+
     if not TYP_PATH.exists():
         # Nothing to do -- e.g. rendering to a format other than typst.
         return

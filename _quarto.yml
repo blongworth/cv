@@ -16,6 +16,10 @@ format:
     toc: false
     include-in-header: cv-style.typ
     keep-typ: true
+  html:
+    toc: false
+    embed-resources: true
+    title-block-banner: false
 
 bibliography: references.bib
 csl: apa.csl
