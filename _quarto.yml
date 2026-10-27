@@ -2,6 +2,7 @@ project:
   title: "Brett Longworth CV"
   render:
     - cv.qmd
+    - cv-onepage.qmd
   post-render:
     - python3 scripts/bold_bib_names.py
 
@@ -22,6 +23,10 @@ format:
     title-block-banner: false
 
 bibliography: references.bib
+# Full CV lists every reference; cv-onepage.qmd overrides this with a
+# curated list (must live here, not in cv.qmd front matter, to be overridable).
+nocite: |
+  @*
 csl: apa.csl
 citeproc: true
 link-citations: false

@@ -1,8 +1,3 @@
----
-nocite: |
-  @*
----
-
 # Brett Longworth
 
 Research Associate III, Marine Chemistry and Geochemistry \
@@ -11,6 +6,8 @@ McLean Lab, MS\#8, Woods Hole Oceanographic Institution, Woods Hole, MA 02543 \
 
 ## Research Interests
 
+::: {.content-visible unless-meta="onepage"}
+
 - Dissolved gasses as tracers of ecosystem function in seawater.
 - Microcontroller systems for sensors, platforms, and telemetry.
 - Shipboard sensor data acquisition and integration.
@@ -18,7 +15,19 @@ McLean Lab, MS\#8, Woods Hole Oceanographic Institution, Woods Hole, MA 02543 \
 - Improving the efficiency, reliability, and precision of field-deployed quadrupole mass spectrometry.
 - Radiocarbon as a tracer of carbon source in natural systems.
 
+:::
+
+::: {.content-visible when-meta="onepage"}
+
+- Dissolved gasses as tracers of ecosystem function in seawater.
+- Microcontroller systems, sensor platforms, telemetry, and shipboard data integration.
+- Field-deployed quadrupole mass spectrometry; radiocarbon as a tracer of carbon source.
+
+:::
+
 ## Skills
+
+::: {.content-visible unless-meta="onepage"}
 
 - Shipboard and laboratory experience with mass spectrometry, gas handling, and chemical analysis.
 - Development of sensor platforms and telemetry systems for oceanographic research.
@@ -37,7 +46,20 @@ McLean Lab, MS\#8, Woods Hole Oceanographic Institution, Woods Hole, MA 02543 \
 - Statistics for data reduction/analysis and quality assessment.
 - Qualified WHOI small boat operator.
 
+:::
+
+::: {.content-visible when-meta="onepage"}
+
+- Carpentries-certified instructor, course organization, lesson development
+- R, Python, C++/MicroPython (microcontrollers), Shell, git/GitHub, and data-driven web applications.
+- Data pipelines, statistics for data reduction and QA/QC, cloud and local deployment, agentic coding.
+- Shipboard and laboratory mass spectrometry, chemical analysis, sensor platform and telemetry development.
+
+:::
+
 ## Professional Experience
+
+::: {.content-visible unless-meta="onepage"}
 
 **Mar 2026 – Present** Woods Hole Oceanographic Institution — *OOI*
 : Pre- and Post-deployment tank testing of sensors including deployment, recovery, discrete sampling and analysis of pH and DIC. Wrote data reduction package for processing and correction of temp, salinity, pH and DIC data.
@@ -53,6 +75,29 @@ McLean Lab, MS\#8, Woods Hole Oceanographic Institution, Woods Hole, MA 02543 \
 
 **Mar 2006 – Nov 2023** Woods Hole Oceanographic Institution — *NOSAMS Research Associate*
 : Daily operation, maintenance and development for determination of radiocarbon using accelerator mass spectrometry at the National Ocean Sciences AMS facility.
+
+:::
+
+::: {.content-visible when-meta="onepage"}
+
+**Mar 2026 – Present** Woods Hole Oceanographic Institution — *OOI*
+: Sensor tank testing, discrete pH/DIC sampling and analysis; data reduction package for T, S, pH and DIC.
+
+**Jan 2023 – Present** Woods Hole Oceanographic Institution — *Machine Lab*
+: Microcontroller code, telemetry, and Gb–Tb data pipelines for mass spectrometer and ADV sensor platforms.
+
+**Nov 2021 – Present** Woods Hole Oceanographic Institution — *NES-LTER Cruises*
+: O2/Ar by equilibrator inlet mass spectrometry, dissolved gas sampling, CTD/rosette deck and lab operations.
+
+**Nov 2023 – Jan 2026** Woods Hole Oceanographic Institution — *LOC-NESS Project*
+: Real-time web mapping, shipboard sensor interfaces, CTD/drifter operations, and QA/QC of underway data.
+
+**Mar 2006 – Nov 2023** Woods Hole Oceanographic Institution — *NOSAMS Research Associate*
+: Operation, maintenance, and development of radiocarbon accelerator mass spectrometry systems.
+
+:::
+
+::: {.content-visible unless-meta="onepage"}
 
 **Oct 2013** Woods Hole Oceanographic Institution — *Cruise Leg: GEOTRACES EPZT, Eastern Pacific*
 : Sampling for dissolved noble gasses, radiocarbon, DIC and tritium in seawater. Ran console for rosette casts. Underway analysis of O2/Ar ratios via membrane inlet mass spectrometry.
@@ -87,6 +132,15 @@ McLean Lab, MS\#8, Woods Hole Oceanographic Institution, Woods Hole, MA 02543 \
 **Jan–Jun 1997** University of Massachusetts — *Independent Study*, Amherst, MA
 : Studied the deep phylogeny of chordates using cladistic analysis of mitochondrial genomes.
 
+:::
+
+::: {.content-visible when-meta="onepage"}
+
+**2008 – 2013** Woods Hole Oceanographic Institution — *Research Cruises*
+: GEOTRACES EPZT (2013), GEOTRACES NAT (2011), ANDREX JC030 (2009), CLIVAR I6S (2008).
+
+:::
+
 ## Education
 
 **2001 – 2005** University of Massachusetts, Amherst, MA
@@ -95,8 +149,14 @@ McLean Lab, MS\#8, Woods Hole Oceanographic Institution, Woods Hole, MA 02543 \
 **1995 – 1998** University of Massachusetts, Amherst, MA
 : B.S. Biology, concentration in ecology and evolution. Year exchange in Freiburg, Germany.
 
+::: {.content-visible unless-meta="onepage"}
+
 **1992 – 1994** University of Maine, Orono, ME
 : Biology and geology (no degree conferred).
+
+:::
+
+::: {.content-visible unless-meta="onepage"}
 
 ## Teaching
 
@@ -105,9 +165,8 @@ McLean Lab, MS\#8, Woods Hole Oceanographic Institution, Woods Hole, MA 02543 \
 - **2021** Lead instructor for Data Management with SQL. Database skills course for WHOI technical staff.
 - **2020** Lead instructor for Reproducible Data Science with R and Git, Software Carpentry course for WHOI technical staff.
 - **2020** Lead instructor for R for Reproducible Data Science, Software Carpentry course for WHOI JP/SSF students.
-- **2020** Certified as an instructor for The Carpentries.
-- **2020** Created WHOI Data Science Slack.
-- **2019** Occasional assistance teaching R in NES-LTER summer lecture series.
+- **2020** Certified as an instructor for The Carpentries. Created WHOI Data Science Slack.
+- **2019** Assisted teaching R in NES-LTER summer lecture series.
 - **2018** Assisted with Data Carpentry course in introductory R programming.
 
 ## Service
@@ -138,10 +197,40 @@ McLean Lab, MS\#8, Woods Hole Oceanographic Institution, Woods Hole, MA 02543 \
 - American Geophysical Union (Biogeosciences Section)
 - Symposium of Northeastern Accelerator Personnel (SNEAP)
 
+:::
+
+::: {.content-visible when-meta="onepage"}
+
+## Teaching, Service & Awards
+
+- **Teaching:** Organized and taught workshops in R, Python, git, shell, and SQL (2018 – present).
+- **Service:** Ocean Informatics Working Group, Staff Mentoring, Technical Ladder Review Implementation Committee.
+- **Awards:** Technical Staff Training Awards (2019, 2020, 2021); APO/DDVPSE funding for coding workshops (2023 – 2026).
+
+:::
+
+::: {.content-visible unless-meta="onepage"}
+
 ## Publications
+
+:::
+
+::: {.content-visible when-meta="onepage"}
+
+## Selected Publications
+
+:::
 
 ::: {#refs}
 :::
+
+::: {.content-visible when-meta="onepage"}
+
+Full publication list: [orcid.org/0000-0001-8318-2054](https://orcid.org/0000-0001-8318-2054)
+
+:::
+
+::: {.content-visible unless-meta="onepage"}
 
 ## Published Abstracts and Professional Talks
 
@@ -182,3 +271,5 @@ McLean Lab, MS\#8, Woods Hole Oceanographic Institution, Woods Hole, MA 02543 \
 - Longworth BE, Petsch ST, Raymond PA. (2006). Watershed Sources of Aged Riverine Organic Matter to the Hudson-Mohawk River System. Poster presented at AGU Fall Meeting, San Francisco, CA.
 - Longworth BE, Petsch ST, Raymond PA. (2003). Ancient sedimentary organic matter in a modern riverine carbon cycle: Hudson-Mohawk River system, New York, USA. Poster presented at INQUA, Reno, NV.
 - Longworth BE, Petsch ST, Raymond PA. (2003). Ancient organic matter sources to the Hudson-Mohawk River system: Implications of riverine transport of ancient organic matter for the global biogeochemical carbon cycle. Poster presented at AGU Fall Meeting, San Francisco, CA.
+
+:::
