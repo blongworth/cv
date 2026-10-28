@@ -18,8 +18,7 @@ Usage:
 
 Works without a DOI (e.g. conference talks/posters, book chapters not
 registered with a DOI) are reported but not added automatically -- add those
-to references.bib or the "Published Abstracts and Professional Talks" list
-in cv.qmd by hand.
+to references.bib or to `abstracts:` in cv.yml by hand.
 """
 
 from __future__ import annotations

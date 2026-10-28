@@ -1,8 +1,2 @@
-.quarto/
 __pycache__/
 *.pyc
-cv.typ
-
-/.quarto/
-**/*.quarto_ipynb
-cv-onepage.typ
